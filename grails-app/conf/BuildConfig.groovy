@@ -44,7 +44,7 @@ grails.project.dependency.resolution = {
     }
 
     plugins {
-        build(  ":tomcat:7.0.54",
+        build(  ":tomcat:7.0.70",
                 ":release:3.1.1",
                 ":rest-client-builder:2.1.1") {
             export = false
@@ -54,11 +54,10 @@ grails.project.dependency.resolution = {
         compile ":rest:0.8"
         compile ":build-info:1.2.6"
         runtime ":jquery:1.11.1"
-//        runtime ":resources:1.2.14"
         compile ":asset-pipeline:2.14.1"
         runtime ":release:3.1.1"
         runtime ":ala-admin-plugin:1.3"
-        runtime ":ala-charts-plugin:1.3"
+        compile ":elurikkus-charts:1.3"
         compile ":images-client-plugin:0.8"
     }
 }
