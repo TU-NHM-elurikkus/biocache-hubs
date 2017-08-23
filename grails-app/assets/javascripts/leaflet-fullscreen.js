@@ -1,4 +1,4 @@
 /*
 //= require leaflet
-//= require leaflet-plugins/fullscreen/Control.FullScreen.js
+//= require leaflet-plugins/fullscreen/Control.FullScreen
  */

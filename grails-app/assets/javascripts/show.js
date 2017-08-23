@@ -1,10 +1,10 @@
 /*
  * // require jquery
 //= require jquery_i18n
-//= require audiojs/audio.min.js
-//= require jquery.i18n.properties-1.0.9.js
-//= require charts2.js
-//= require wms2.js
+//= require audiojs/audio.min
+//= require jquery.i18n.properties-1.0.9
+//= require charts2
+//= require wms2
 //= require_self
  */
 /**

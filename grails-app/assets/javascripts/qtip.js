@@ -1,4 +1,4 @@
 /*
  * // require jquery
-//= require jquery.qtip.min.js
+//= require jquery.qtip.min
  */

@@ -1,6 +1,4 @@
 /*
  * // require jquery
-//= require jquery.nanoscroller.min.js
+//= require jquery.nanoscroller.min
  */
- 
- 

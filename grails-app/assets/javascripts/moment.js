@@ -1,1 +1,1 @@
-//= require moment.min.js
+//= require moment.min
