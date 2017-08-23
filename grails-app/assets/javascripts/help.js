@@ -1,1 +1,1 @@
-//= require toc.js
+//= require toc

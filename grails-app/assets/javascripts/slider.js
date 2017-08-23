@@ -1,3 +1,3 @@
 /*
-//= require bootstrap-slider.js
+//= require bootstrap-slider
  */

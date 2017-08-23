@@ -1,4 +1,4 @@
 /*
  * // require jquery
-//= require jquery.colourPicker.js
+//= require jquery.colourPicker
  */
