@@ -57,7 +57,6 @@ grails.project.dependency.resolution = {
         compile ":asset-pipeline:2.14.1"
         runtime ":release:3.1.1"
         runtime ":ala-admin-plugin:1.3"
-        compile ":elurikkus-charts:1.3"
         compile ":images-client-plugin:0.8"
     }
 }

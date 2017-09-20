@@ -11,6 +11,6 @@
     />
 </script>
 
-<div class="row-fluid" id="charts">
-
-</div>
+<%--
+    An element with the ID of #charts must be provided by the template that uses this partial.
+--%>
