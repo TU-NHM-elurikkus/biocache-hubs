@@ -38,25 +38,22 @@ grails.project.dependency.resolution = {
         //    excludes "icu4j","servlet-api","spring-core","spring-context","spring-context-support","spring-beans","spring-web","spring-mvc"
         //}
         //compile "org.tmatesoft.svnkit:svnkit:1.8.5"
-        compile "commons-httpclient:commons-httpclient:3.1"
         runtime "commons-lang:commons-lang:2.6"
         runtime "net.sf.supercsv:super-csv:2.1.0"
     }
 
     plugins {
-        build(  ":tomcat:7.0.70",
-                ":release:3.1.1",
-                ":rest-client-builder:2.1.1") {
-            export = false
-        }
-        compile ':cache:1.1.8'
+        build ":tomcat:7.0.70"
+        build ":release:3.1.1"
+        build ":rest-client-builder:2.1.1"
+
+        compile ":cache:1.1.8"
         compile ":cache-ehcache:1.0.0"
         compile ":rest:0.8"
         compile ":build-info:1.2.6"
-        runtime ":jquery:1.11.1"
+        compile ":jquery:1.11.1"
         compile ":asset-pipeline:2.14.1"
-        runtime ":release:3.1.1"
-        runtime ":ala-admin-plugin:1.3"
+        compile ":ala-admin-plugin:1.3"
         compile ":images-client-plugin:0.8"
     }
 }

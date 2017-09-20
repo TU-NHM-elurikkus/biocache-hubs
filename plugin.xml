@@ -9,7 +9,6 @@ from the ALA biocache-service app (no local DB is required for this app).
   <documentation>https://github.com/AtlasOfLivingAustralia/biocache-hubs</documentation>
   <type>ElurikkusBiocacheHubsGrailsPlugin</type>
   <resources>
-    <resource>BiocacheHubsResources</resource>
     <resource>BiocacheHubsUrlMappings</resource>
     <resource>BootStrap</resource>
     <resource>defaultConfig</resource>
@@ -18,17 +17,9 @@ from the ALA biocache-service app (no local DB is required for this app).
     <resource>au.org.ala.biocache.hubs.AssertionsController</resource>
     <resource>au.org.ala.biocache.hubs.DataQualityController</resource>
     <resource>au.org.ala.biocache.hubs.HelpController</resource>
-    <resource>au.org.ala.biocache.hubs.HomeController</resource>
     <resource>au.org.ala.biocache.hubs.MessagesController</resource>
     <resource>au.org.ala.biocache.hubs.OccurrenceController</resource>
     <resource>au.org.ala.biocache.hubs.ProxyController</resource>
     <resource>au.org.ala.biocache.hubs.UserController</resource>
-    <resource>au.org.ala.biocache.hubs.FacetsCacheService</resource>
-    <resource>au.org.ala.biocache.hubs.MessageSourceCacheService</resource>
-    <resource>au.org.ala.biocache.hubs.PostProcessingService</resource>
-    <resource>au.org.ala.biocache.hubs.UserDataService</resource>
-    <resource>au.org.ala.biocache.hubs.UserService</resource>
-    <resource>au.org.ala.biocache.hubs.WebServicesService</resource>
-    <resource>au.org.ala.biocache.hubs.OccurrenceTagLib</resource>
   </resources>
 </plugin>
