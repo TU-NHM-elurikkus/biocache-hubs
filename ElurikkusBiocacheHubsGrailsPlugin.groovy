@@ -15,7 +15,6 @@
 
 
 import au.org.ala.biocache.hubs.EnglishValueConverter
-import au.org.ala.biocache.hubs.ExtendedPluginAwareResourceBundleMessageSource
 import grails.util.Environment
 
 class ElurikkusBiocacheHubsGrailsPlugin {
@@ -110,13 +109,6 @@ from the ALA biocache-service app (no local DB is required for this app).
         application.config = loadConfig.merge(config) // client app will now override the defaultConfig version
         //application.config.merge(loadConfig) //
         //println "config.security = ${config.security}"
-
-        // Custom message source
-        messageSource(ExtendedPluginAwareResourceBundleMessageSource) {
-            basenames = ["WEB-INF/grails-app/i18n/messages","${application.config.biocache.baseUrl}/facets/i18n"] as String[]
-            cacheSeconds = (60 * 60 * 6) // 6 hours
-            useCodeAsDefaultMessage = false
-        }
 
         // Define Custom ValueConverter beans (force EN formatting of Floats)
         "defaultGrailsjava.lang.FloatConverter"(EnglishValueConverter) // for Float
