@@ -1,1 +1,1 @@
-//= require leaflet-0.7.2/leaflet
+//= require leaflet-0.7.7/leaflet-src
