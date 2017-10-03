@@ -79,7 +79,7 @@ L.drawVersion = '0.2.4-dev';
 					},
 					cancel: {
 						title: jQuery.i18n.prop('advancedsearch.js.map.cancel.title'),
-						text: jQuery.i18n.prop('advancedsearch.js.map.cancel.text')
+						text: jQuery.i18n.prop('advancedsearch.js.map.cancel')
 					}
 				},
 				buttons: {
@@ -915,7 +915,7 @@ L.Draw.Circle = L.Draw.SimpleShape.extend({
 
 			this._tooltip.updateContent({
 				text: this._endLabelText,
-				subtext: showRadius ? 'Radius: ' + L.GeometryUtil.readableDistance(radius, useMetric) : ''
+				subtext: showRadius ? $.i18n.prop('advancedsearch.js.map.circle.radius') + ': ' + L.GeometryUtil.readableDistance(radius, useMetric) : ''
 			});
 		}
 	}
