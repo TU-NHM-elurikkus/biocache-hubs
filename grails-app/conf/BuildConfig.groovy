@@ -46,8 +46,6 @@ grails.project.dependency.resolution = {
         build ":release:3.1.1"
         build ":rest-client-builder:2.1.1"
 
-        compile ":cache:1.1.8"
-        compile ":cache-ehcache:1.0.0"
         compile ":rest:0.8"
         compile ":build-info:1.2.6"
         compile ":jquery:1.11.1"
