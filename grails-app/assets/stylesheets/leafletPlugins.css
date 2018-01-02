@@ -1,7 +1,6 @@
 /*
- *= require leaflet
- *= require leaflet-fullscreen
+ *= require leaflet-1.2.0/leaflet
+ *= require leaflet-plugins/fullscreen/Control.FullScreen
  *= require leaflet-plugins/coordinates/Leaflet.Coordinates-0.1.4
- // ?? resource url:[dir:'js/leaflet-plugins/coordinates', file:'Leaflet.Coordinates-0.1.4.ie.css', plugin:'biocache-hubs'], attrs: [ media: 'all' ], wrapper: { s -> "<!--[if lt IE 8]>$s<![endif]-->" }
  *= require leaflet-plugins/draw/leaflet.draw
  */
