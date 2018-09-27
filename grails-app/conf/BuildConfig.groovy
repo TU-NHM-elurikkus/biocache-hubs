@@ -51,6 +51,5 @@ grails.project.dependency.resolution = {
         compile ":jquery:1.11.1"
         compile ":asset-pipeline:2.14.1"
         compile ":ala-admin-plugin:1.3"
-        compile ":images-client-plugin:0.8"
     }
 }
