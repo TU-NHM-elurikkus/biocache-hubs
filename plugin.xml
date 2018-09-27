@@ -15,7 +15,6 @@ from the ALA biocache-service app (no local DB is required for this app).
     <resource>spring.resources</resource>
     <resource>au.org.ala.biocache.hubs.AdminController</resource>
     <resource>au.org.ala.biocache.hubs.AssertionsController</resource>
-    <resource>au.org.ala.biocache.hubs.HelpController</resource>
     <resource>au.org.ala.biocache.hubs.UserController</resource>
   </resources>
 </plugin>
