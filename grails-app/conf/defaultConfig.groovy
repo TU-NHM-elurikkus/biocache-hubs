@@ -43,7 +43,6 @@ skin.exploreUrl = "${serverName}"
 // web services
 bie.baseUrl = "https://bie.ala.org.au"
 bieService.baseUrl = "https://bie.ala.org.au/ws"
-//bie.autocompleteHints.fq = "kingdom:Plantae"  // optional
 collectory.baseUrl = "http://collections.ala.org.au"
 logger.baseUrl = "http://logger.ala.org.au/service"
 biocache.apiKey = "api-key-to-use"

@@ -1,18 +1,7 @@
 /*
-    Document   : search
-    Created on : Feb 10, 2011, 4:23:15 PM
-    Author     : "Nick dos Remedios <Nick.dosRemedios@csiro.au>"
-    Description:
-        Purpose of the stylesheet follows.
-
  *= require searchCore
  *= require print-search
  *= require_self
-*/
-
-/*
-   TODO customize this sample style
-   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
 */
 
 #main-content {
