@@ -1,4 +1,1 @@
-/*
- * // require jquery
 //= require purl
- */
