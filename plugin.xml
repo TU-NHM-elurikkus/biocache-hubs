@@ -9,7 +9,6 @@ from the ALA biocache-service app (no local DB is required for this app).
   <documentation>https://github.com/AtlasOfLivingAustralia/biocache-hubs</documentation>
   <type>ElurikkusBiocacheHubsGrailsPlugin</type>
   <resources>
-    <resource>BiocacheHubsUrlMappings</resource>
     <resource>BootStrap</resource>
     <resource>defaultConfig</resource>
     <resource>spring.resources</resource>
