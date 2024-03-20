@@ -20,7 +20,7 @@ package au.org.ala.biocache.hubs
  */
 class AdminController {
     def scaffold = true
-    def facetsCacheService, authService, webServicesService
+    def facetsCacheService, webServicesService
     def messageSourceCacheService
 
     def index() {
