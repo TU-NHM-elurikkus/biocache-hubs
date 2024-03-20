@@ -22,7 +22,7 @@ class AdminController {
     def scaffold = true
     def facetsCacheService, authService, webServicesService
     def messageSourceCacheService
-    def beforeInterceptor = [action:this.&auth]
+    //def beforeInterceptor = [action:this.&auth]
 
     /**
      * Before interceptor to check for roles
