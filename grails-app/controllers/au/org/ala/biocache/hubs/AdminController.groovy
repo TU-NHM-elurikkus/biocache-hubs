@@ -22,29 +22,6 @@ class AdminController {
     def scaffold = true
     def facetsCacheService, authService, webServicesService
     def messageSourceCacheService
-    //def beforeInterceptor = [action:this.&auth]
-
-    /**
-     * Before interceptor to check for roles
-     *
-     * @return
-     */
-    private auth() {
-        if (!grailsApplication.config.security.cas.casServerName && grailsApplication.config.security.cas.bypass) {
-            // Standard Grails config - bypass
-            true
-        } else if (!grailsApplication.config.casServerName && grailsApplication.config.disableCAS) {
-            // External config - bypass
-            true
-        } else if (!authService?.userInRole(grailsApplication.config.auth.admin_role)) {
-            log.debug "redirecting to index..."
-            flash.message = "You are not authorised to access the page: ${params.controller}/${params.action?:''}."
-            redirect(controller: "home", action: "index")
-            false
-        } else {
-            true
-        }
-    }
 
     def index() {
         // [ message: "not used" ]
